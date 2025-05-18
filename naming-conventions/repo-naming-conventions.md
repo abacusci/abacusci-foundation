@@ -1,29 +1,24 @@
 # Repository Naming Conventions
 
-## Module Definition Repositories
+## Module Repositories
 
 Repositories that describe the content, goals, and structure of a learning module use the following format:
 
 ```txt
-module-[module-name]
+mod-[module-name]-YYMM-[team-id]
 ```
 
-- `module-`: fixed prefix
+- `mod-`: fixed prefix
 - `[module-name]`: lowercase, kebab-case name of the module
+- `YY`: last two digits of current year
+- `MM`: current month number
+- `[team-id]`: the team code defined above
 
 **Examples:**
 
-- `module-python-basics`
-- `module-spreadsheet-basics`
-- `module-web-design`
-
-Each module repo includes:
-
-- A detailed syllabus
-- Project examples
-- Calendar and schedule
-- Educational resources
-- Grading rubric
+- `mod-python-basics-2509-e1`
+- `mod-spreadsheet-basics-2512-e2`
+- `mod-web-design-2511-b1`
 
 ## Team Repositories
 
